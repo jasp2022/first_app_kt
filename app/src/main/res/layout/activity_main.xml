@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/sena"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/logosena" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="inherit" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="@string/edt_pass"
+        android:inputType="textPassword"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_login"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/rojo_google"
+        android:text="@string/btn_gmail" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/azul_google"
+        android:text="@string/btn_cuenta" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_pss"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
